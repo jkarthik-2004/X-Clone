@@ -11,6 +11,7 @@ export const metadata = {
   title: "X Clone",
   description: "A clone of X website built with Next.js and Tailwind.css",
 };
+export const dynamic = 'force-dynamic'
 
 export default function RootLayout({ children }) {
   return (
